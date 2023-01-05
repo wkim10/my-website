@@ -12,6 +12,11 @@ header h2 {
     text-align: center;
 }
 
+#skills {
+    background-color: darkblue;
+    color: white;
+}
+
 footer {
     position: absolute;
     text-align: center;
