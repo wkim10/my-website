@@ -1,5 +1,9 @@
 header {
-    background-color: black;
+    /* background-color: black; */
+    background-image: url(./images/keyboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 header h1 {
@@ -8,8 +12,12 @@ header h1 {
 }
 
 header h2 {
-    color: gray;
+    color: gainsboro;
     text-align: center;
+}
+
+header .nav-link {
+    color: gainsboro !important;
 }
 
 #skills {
@@ -17,8 +25,13 @@ header h2 {
     color: white;
 }
 
+#work {
+    background-color: darkblue;
+    color: white;
+}
+
 footer {
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     bottom: 0;
     width: 100%;
