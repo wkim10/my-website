@@ -1,43 +1,99 @@
+* {
+  font-family: "Avenir";
+}
+
 header {
-    /* background-color: black; */
-    background-image: url(./images/keyboard.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-header h1 {
-    color: white;
-    text-align: center;
-}
-
-header h2 {
-    color: gainsboro;
-    text-align: center;
+  /* background-color: black; */
+  background-attachment: fixed;
+  background-image: url(./images/keyboard.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 header .nav-link {
-    color: gainsboro !important;
+  color: #94a3ba !important;
+  font-family: "Avenir Black";
+  margin-left: 200px;
 }
 
-#skills {
-    background-color: darkblue;
-    color: white;
+header h1 {
+  color: #ffffff;
+  font-size: 88px;
+  text-align: center;
 }
 
-#work {
-    background-color: darkblue;
-    color: white;
+header h2 {
+  color: #94a3ba;
+  font-family: "Avenir Light";
+  font-size: 25px;
+  padding-bottom: 20px;
+  letter-spacing: 0.25em;
+  text-align: center;
+}
+
+header .top {
+  margin-top: 20px;
+}
+
+/* #carousel .carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+  filter: invert(100%);
+} */
+
+.carousel.carousel-slider {
+  background-color: #edeff5;
+}
+
+.carousel-root {
+  background-color: #edeff5;
+}
+
+.CarouselContainer {
+  background-color: #edeff5;
+  padding: 100px 200px;
+  text-align: left;
+}
+
+.CarouselTitle {
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.Rectangle {
+  width: 55px;
+  height: 7px;
+  background: #df3243;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.CarouselHeader {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skills {
+  background-color: darkblue;
+  color: white;
+  padding: 100px 300px;
+}
+
+.work {
+  background-color: darkblue;
+  color: white;
 }
 
 footer {
-    /* position: absolute; */
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
+  /* position: absolute; */
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 
 footer p {
-    color: #ccc;
+  color: #ccc;
 }
