@@ -17,13 +17,13 @@ header .nav-link {
   margin-left: 200px;
 }
 
-header h1 {
+header .title {
   color: #ffffff;
   font-size: 88px;
   text-align: center;
 }
 
-header h2 {
+header .subtitle {
   color: #94a3ba;
   font-family: "Avenir Light";
   font-size: 25px;
@@ -50,9 +50,13 @@ header .top {
   background-color: #edeff5;
 }
 
+.carousel .thumbs-wrapper {
+  margin: 0px !important;
+}
+
 .CarouselContainer {
   background-color: #edeff5;
-  padding: 100px 200px;
+  padding: 50px 200px 100px;
   text-align: left;
 }
 
