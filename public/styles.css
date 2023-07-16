@@ -52,6 +52,19 @@ header .top {
 
 .carousel .thumbs-wrapper {
   margin: 0px !important;
+  padding-bottom: 20px !important;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid gray !important;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid gray !important;
+}
+
+.carousel .dot {
+  background: white !important;
 }
 
 .CarouselContainer {
@@ -79,10 +92,16 @@ header .top {
   font-weight: bold;
 }
 
-.skills {
-  background-color: darkblue;
+.Skills {
+  background-color: #0b214a;
   color: white;
-  padding: 100px 300px;
+  padding: 110px 200px 100px;
+}
+
+.Skills .SkillContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .work {
