@@ -13,7 +13,7 @@ function Header() {
           display: "flex",
           flexDirection: "column",
           position: "absolute",
-          top: "65.5%",
+          top: "57%",
         }}
       >
         <img
@@ -30,11 +30,49 @@ function Header() {
       </div>
       <header
         style={{
+          paddingTop: "30px",
           paddingBottom: "137px",
           // paddingBottom: windowSize.current[0] * 0.095
         }}
       >
-        <Nav defaultActiveKey="/home" className="flex-column">
+        <div
+          style={{
+            fontSize: "20px",
+            paddingInline: "30px",
+            display: "flex",
+            flexDirection: "row",
+            gap: "30px",
+            paddingBottom: "100px",
+          }}
+        >
+          <a href="/" style={{ textDecoration: "none", color: "#BBC8DD" }}>
+            HOME
+          </a>
+          <a href="/work" style={{ textDecoration: "none", color: "#BBC8DD" }}>
+            WORK
+          </a>
+          <a
+            href="/projects"
+            style={{ textDecoration: "none", color: "#BBC8DD" }}
+          >
+            PROJECTS
+          </a>
+          <a
+            href="/activities"
+            style={{ textDecoration: "none", color: "#BBC8DD" }}
+          >
+            ACTIVITIES
+          </a>
+        </div>
+
+        {/* <Nav
+          defaultActiveKey="/home"
+          style={{
+            flexDirection: "row",
+            display: "flex",
+            alignItems: "center",
+          }}
+        >
           <Nav.Link href="/home" className="top">
             HOME
           </Nav.Link>
@@ -44,7 +82,7 @@ function Header() {
           <Nav.Link eventKey="link-4">PROJECTS</Nav.Link>
           <Nav.Link eventKey="link-5">WORK EXPERIENCE</Nav.Link>
           <Nav.Link eventKey="link-6">EXTRACURRICULAR ACTIVITIES</Nav.Link>
-        </Nav>
+        </Nav> */}
 
         <div className="title">Won Kim</div>
         <div className="subtitle">COMPUTER SCIENCE MAJOR</div>
